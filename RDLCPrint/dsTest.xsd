@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsTest" targetNamespace="http://tempuri.org/dsTest.xsd" xmlns:mstns="http://tempuri.org/dsTest.xsd" xmlns="http://tempuri.org/dsTest.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsTest" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsTest" msprop:Generator_DataSetName="dsTest">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Test" msprop:Generator_UserTableName="Test" msprop:Generator_RowDeletedName="TestRowDeleted" msprop:Generator_TableClassName="TestDataTable" msprop:Generator_RowChangedName="TestRowChanged" msprop:Generator_RowClassName="TestRow" msprop:Generator_RowChangingName="TestRowChanging" msprop:Generator_RowEvArgName="TestRowChangeEvent" msprop:Generator_RowEvHandlerName="TestRowChangeEventHandler" msprop:Generator_TablePropName="Test" msprop:Generator_TableVarName="tableTest" msprop:Generator_RowDeletingName="TestRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReportName" msprop:Generator_UserColumnName="ReportName" msprop:Generator_ColumnPropNameInRow="ReportName" msprop:Generator_ColumnVarNameInTable="columnReportName" msprop:Generator_ColumnPropNameInTable="ReportNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PrinterName" msprop:Generator_UserColumnName="PrinterName" msprop:Generator_ColumnPropNameInRow="PrinterName" msprop:Generator_ColumnVarNameInTable="columnPrinterName" msprop:Generator_ColumnPropNameInTable="PrinterNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PaperName" msprop:Generator_UserColumnName="PaperName" msprop:Generator_ColumnPropNameInRow="PaperName" msprop:Generator_ColumnVarNameInTable="columnPaperName" msprop:Generator_ColumnPropNameInTable="PaperNameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
